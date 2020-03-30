@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    background-color: #FF88AF;
+}
+
+i { 
+    padding: 15px;
+    float: right;
+    color: white;
+}
+
+.kleinlogo {
+    padding: 40px;
+    float: left;
+    max-width: 47%;
+}
+
+.instellingen, .over {
+    padding: 3px;
+    margin-left: 11%;
+    width: 300px;
+    border-radius: 50px;
+    color: white;
+    text-align: center;
+    background-color:#900C37 ;
+    margin-bottom: 15%;
+}
+
+.voorwaarden {
+    padding: 3px;
+    margin-left: 11%;
+    width: 300px;
+    border-radius: 50px;
+    color: white;
+    text-align: center;
+    background-color: #C42257 ;
+    margin-bottom: 15%;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+}
