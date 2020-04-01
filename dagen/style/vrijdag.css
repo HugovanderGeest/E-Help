@@ -1,0 +1,97 @@
+
+
+/* achtergrond kleur */
+
+.achtergrond {
+    padding-bottom: 210px;
+    z-index: -2;
+    background-color: #34C469;
+}
+
+
+/* pink vlak boven */
+.rondboven {
+    height: 60px;
+    padding: 10px;
+    background-color: #2CAA41;
+}
+
+h1 {
+    text-decoration: none;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    background-color: transparent;
+}
+
+i { 
+    padding: 10px;
+    background-color: transparent;
+    float: right;
+    color: white;
+}
+
+.bars {
+    font-size: 30px;
+} 
+
+/* streep link in beeldscherm */
+.streep {
+    float: left;
+    z-index: -1;
+    height: 50%;
+    margin-left: 20px;
+    width: 10px;
+    background-color: white;
+}
+
+/* rondje met tijd */
+.rondje {
+    font-size: 20px;
+    color: white;
+    z-index: 1;
+    background-color:#34C469 ;
+    padding: 13px 30px;
+    border-radius: 15px;
+    border: white solid 5px;
+}
+
+/* style voor tijden */
+.mar1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.mar2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 115px;
+}
+
+.mar3 {
+    display: flex;
+    justify-content: center;
+    margin-top: 115px;
+}
+
+/* style voor taken */
+
+.textrondje {
+    float: right;
+    margin-top: 30px;
+    font-size: 30px;
+    color: white;
+    padding: 15px 30px;
+    background-color:#34C469 ;
+    border-radius: 25px;
+    border: white solid 5px;
+    margin-right: 10px;
+}
+
+/* style voor taakbeschijving */
+.addtext {
+    float: right;
+    font-size: 20px;
+    color: white;
+}

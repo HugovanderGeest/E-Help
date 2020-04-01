@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+/* Donderag heeft geen opacity om dat dat de dag van de week is, 
+zo weet je makkelijk door de kleur code en door de vervaing welken 
+dag het is en wat je vandaag moet doen */
+
+/* vak1 = maandag etc */
+.vak1 {
+    opacity: 0.5;
+    background-color: #FF4646;
+}
+
+.vak2 {
+    opacity: 0.5;
+    background-color: #FF9646;
+}
+
+.vak3 {
+    opacity: 0.5;
+    background-color: #FFCE46;
+}
+
+.vak4 {
+    
+    background-color: #43E64E;
+}
+
+.vak5 {
+    opacity: 0.5;
+    background-color: #34C469;
+}
+
+.vak6 {
+    opacity: 0.5;
+    background-color: #46F3FF;
+}
+
+.vak7 {
+    opacity: 0.5;
+    background-color: #467DFF;
+}
+
+.vak1, .vak2, .vak3, .vak4, .vak5, .vak6, .vak7 {
+    transition: 0.5s;
+    font-size: 20px;
+    z-index: 0;
+    color: white;
+    padding: 40px;
+    padding-top: 20px;
+}
+
+.vak1:hover, .vak2:hover, .vak3:hover, .vak4:hover, .vak5:hover, .vak6:hover, .vak7:hover { 
+    transform: scale(1.1);
+}
+
+/* rondje1 = het rondje in maandag etc */
+.rondje1 {
+    color: #AA3131;
+    float: right;
+    font-size: 40px;
+    padding: 5px 19px;
+    border-radius: 50%; 
+    background-color: white;
+    border: #AA3131 solid 7px;
+}
+
+.rondje2 {
+    color: #EC781F;
+    float: right;
+    font-size: 40px;
+    padding: 5px 19px;
+    border-radius: 50%; 
+    background-color: white;
+    border: #EC781F solid 7px;
+}
+
+.rondje3 {
+    color: #DAAF36;
+    float: right;
+    font-size: 40px;
+    padding: 5px 19px;
+    border-radius: 50%; 
+    background-color: white;
+    border: #DAAF36 solid 7px;
+}
+
+.rondje4 {
+    color: #3CC946;
+    float: right;
+    font-size: 40px;
+    padding: 5px 19px;
+    border-radius: 50%; 
+    background-color: white;
+    border: #3CC946 solid 7px;
+}
+
+.rondje5 {
+    color: #2CAA41;
+    float: right;
+    font-size: 40px;
+    padding: 5px 19px;
+    border-radius: 50%; 
+    background-color: white;
+    border: #2CAA41 solid 7px;
+}
+
+.rondje6 {
+    color: #32AAB3;
+    float: right;
+    font-size: 40px;
+    padding: 5px 19px;
+    border-radius: 50%; 
+    background-color: white;
+    border: #32AAB3 solid 7px;
+}
+
+.rondje7 {
+    color:#4263B0;
+    float: right;
+    font-size: 40px;
+    padding: 5px 19px;
+    border-radius: 50%; 
+    background-color: white;
+    border: #4263B0 solid 7px;
+}
+
+/* vak onderin met plus teken */
+.rondonder {
+    background-color: #FF88AF;
+}
+
+/* voegtoe teken onder aan de pagina */
+.plus {
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding: 10px;
+    font-size: 42px;
+}
